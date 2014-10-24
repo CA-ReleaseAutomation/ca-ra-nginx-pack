@@ -10,7 +10,7 @@ Actions in this pack are developed for:
 
 ## CHANGELOG
 
-Please review the CHANGELOG file in this repository
+Please review the [CHANGELOG](https://github.com/CA-ReleaseAutomation/ca-ra-nginx-pack/blob/master/CHANGELOG) file in this repository
 
 ## PRE-REQUISITES
 
@@ -40,6 +40,9 @@ To view a listing of input and output descriptions for deployed actions, refer t
 
 ##CONTRIBUTING
 
-If you plan to contribute your changes, you need to read the [CONTRIBUTING](https://github.com/CA-ReleaseAutomation/ca-ra-nginx-pack/blob/master/CONTRIBUTING.md) file in this repository
+If you plan to contribute your changes, you need to read the [CONTRIBUTING.md](https://github.com/CA-ReleaseAutomation/ca-ra-nginx-pack/blob/master/CONTRIBUTING.md) file in this repository
 
+## LICENSE
+
+Please review the [LICENSE](https://github.com/CA-ReleaseAutomation/ca-ra-nginx-pack/blob/master/LICENSE) file in this repository.
 
