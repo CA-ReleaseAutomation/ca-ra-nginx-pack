@@ -14,6 +14,12 @@ Please review the [CHANGELOG.md](https://github.com/CA-ReleaseAutomation/ca-ra-n
 
 If you plan to contribute your changes, you need to read the [CONTRIBUTING.md](https://github.com/CA-ReleaseAutomation/ca-ra-nginx-pack/blob/master/CONTRIBUTING.md) file in this repository
 
+## COMMUNITY
+
+This is a link to find like minded professionals that are enthusiastic about better software:
+
+* [CA Release Automation Community](https://communities.ca.com/community/ca-release-automation) 
+
 ## LICENSE
 
 Please review the [LICENSE](https://github.com/CA-ReleaseAutomation/ca-ra-nginx-pack/blob/master/LICENSE) file in this repository.
