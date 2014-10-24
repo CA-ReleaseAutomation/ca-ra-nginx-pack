@@ -8,7 +8,7 @@ Please review the [RELEASENOTES.md](https://github.com/CA-ReleaseAutomation/ca-r
 
 ## CHANGELOG
 
-Please review the [CHANGELOG](https://github.com/CA-ReleaseAutomation/ca-ra-nginx-pack/blob/master/CHANGELOG) file in this repository for a detailed record of changes.
+Please review the [CHANGELOG.md](https://github.com/CA-ReleaseAutomation/ca-ra-nginx-pack/blob/master/CHANGELOG.md) file in this repository for a detailed record of changes.
 
 ## CONTRIBUTING
 
