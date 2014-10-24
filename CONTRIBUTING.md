@@ -146,7 +146,3 @@ CA Release Automation is made possible by a strong community of developers and s
   any questions or if you would like to get involved in the CA Release Automation community you can check out:
 
 * [CA Release Automation Community](https://communities.ca.com/community/ca-release-automation) 
-
-Also here are some additional pointers to some awesome CA Release Automation content:
-
-* [CA Release Automation Docs](http://https://wiki.ca.com/pages/viewpage.action?title=CA+Release+Automation+Home&spaceKey=RA50/)
