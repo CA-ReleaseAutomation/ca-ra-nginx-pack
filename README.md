@@ -1,9 +1,16 @@
-ca-ra-nginx-pack
-================
+*ca-ra-nginx-pack*
 
-CA Technologies Release Automation Pack for Nginx
+# CA Technologies Release Automation Action Pack for Nginx
 
-##CONTRIBUTING
+## RELEASENOTES
+
+Please review the [RELEASENOTES.md](https://github.com/CA-ReleaseAutomation/ca-ra-nginx-pack/blob/master/RELEASENOTES.md) file in this repository for a detailed overview.
+
+## CHANGELOG
+
+Please review the [CHANGELOG](https://github.com/CA-ReleaseAutomation/ca-ra-nginx-pack/blob/master/CHANGELOG) file in this repository for a detailed record of changes.
+
+## CONTRIBUTING
 
 If you plan to contribute your changes, you need to read the [CONTRIBUTING.md](https://github.com/CA-ReleaseAutomation/ca-ra-nginx-pack/blob/master/CONTRIBUTING.md) file in this repository
 
