@@ -1,32 +1,34 @@
-#CA RELEASE AUTOMATION ACTION PACK FOR NGINX
+# CA RELEASE AUTOMATION ACTION PACK FOR NGINX
 
-##PLATFORMS
+## PLATFORMS
 Actions in this pack are developed for: 
-CA Release Automation 4.7 and later
-Nginx x.y.z and later.
 
-##CHANGELOG
+- CA Release Automation 4.7 and later
+
+- Nginx x.y.z and later.
+
+## CHANGELOG
 Please review the CHANGELOG file in this repository
 
-##PRE-REQUISITES
+## PRE-REQUISITES
 Nginx installation
 
-##INSTALLATION
-1.Verify pre-requisites
-2.Import the Action Pack. 
+## INSTALLATION
+1. Verify pre-requisites
+1. Import the Action Pack. 
 For more information, see [Manage Action Packs in Release Operations Center.](https://wiki.ca.com/display/RA50/Manage+Action+Packs+in+Release+Operations+Center)
-3.Use actions in CA Release Automation processes. 
+1. Use actions in CA Release Automation processes. 
 For more information, see [How to Create Automation Processes.](https://wiki.ca.com/display/RA50/How+to+Create+Automation+Processes)
-Note: When working with action packs, preliminary configuration tasks may be required before using the actions. 
+1. Note: When working with action packs, preliminary configuration tasks may be required before using the actions. 
 
-##HELP
+## HELP
 To view a listing of input and output descriptions for deployed actions, refer to the embedded actions help available in the installation at:
-http://<yourdeployment>/nolio-app/actionshelp.jsp
+[http://<yourdeployment>/nolio-app/actionshelp.jsp](http://<yourdeployment>/nolio-app/actionshelp.jsp)
 
-##DEVELOPMENT
-1.Import the JSON file
-2.Update
-3.Export
+## DEVELOPMENT
+1. Import the JSON file
+1. Update
+1. Export
 
 ##CONTRIBUTING
 If you plan to contribute your changes, you need to read the CONTRIBUTING file in this repository
