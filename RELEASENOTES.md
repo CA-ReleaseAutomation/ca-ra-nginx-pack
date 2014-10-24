@@ -10,7 +10,7 @@ Actions in this pack are developed for:
 
 ## CHANGELOG
 
-Please review the [CHANGELOG](https://github.com/CA-ReleaseAutomation/ca-ra-nginx-pack/blob/master/CHANGELOG) file in this repository
+Please review the [CHANGELOG.md](https://github.com/CA-ReleaseAutomation/ca-ra-nginx-pack/blob/master/CHANGELOG.md) file in this repository
 
 ## PRE-REQUISITES
 
