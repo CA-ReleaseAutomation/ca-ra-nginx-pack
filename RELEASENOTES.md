@@ -14,7 +14,7 @@ Please review the **CHANGELOG.md** file in this repository
 
 ## PRE-REQUISITES
 
-Nginx installation
+Proper installation of and connectivity with the aforementioned platforms
 
 ## INSTALLATION
 
@@ -30,13 +30,15 @@ For more information, see [How to Create Automation Processes.](https://wiki.ca.
 ## HELP
 
 To view a listing of input and output descriptions for deployed actions, refer to the embedded actions help available in the installation at:
+
 http://hostname/nolio-app/actionshelp.jsp
 
 ## DEVELOPMENT
 
-1. Import the JSON file
-1. Update
-1. Export
+1. [Install and configure the RDK](https://wiki.ca.com/display/RA50/Install+and+Configure+the+RDK):w
+1. [Modify the Action Pack in the RDK](https://wiki.ca.com/display/RA50/Create+or+Modify+Action+Packs+in+RDK)
+1. [Create or modify actions](https://wiki.ca.com/display/RA50/Create+or+Modify+Action+Packs+in+RDK)
+1. [Publish Action Pack](https://wiki.ca.com/display/RA50/Publish+Action+Packs+in+RDK)
 
 ##CONTRIBUTING
 
