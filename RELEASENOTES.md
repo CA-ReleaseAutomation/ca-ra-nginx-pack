@@ -10,7 +10,7 @@ Actions in this pack are developed for:
 
 ## CHANGELOG
 
-Please review the [CHANGELOG.md](https://github.com/CA-ReleaseAutomation/ca-ra-nginx-pack/blob/master/CHANGELOG.md) file in this repository
+Please review the **CHANGELOG.md** file in this repository
 
 ## PRE-REQUISITES
 
@@ -30,7 +30,7 @@ For more information, see [How to Create Automation Processes.](https://wiki.ca.
 ## HELP
 
 To view a listing of input and output descriptions for deployed actions, refer to the embedded actions help available in the installation at:
-[http://<yourdeployment>/nolio-app/actionshelp.jsp](http://<yourdeployment>/nolio-app/actionshelp.jsp)
+http://hostname/nolio-app/actionshelp.jsp
 
 ## DEVELOPMENT
 
@@ -40,9 +40,9 @@ To view a listing of input and output descriptions for deployed actions, refer t
 
 ##CONTRIBUTING
 
-If you plan to contribute your changes, you need to read the [CONTRIBUTING.md](https://github.com/CA-ReleaseAutomation/ca-ra-nginx-pack/blob/master/CONTRIBUTING.md) file in this repository
+If you plan to contribute your changes, you need to read the **CONTRIBUTING.md** file in this repository
 
 ## LICENSE
 
-Please review the [LICENSE](https://github.com/CA-ReleaseAutomation/ca-ra-nginx-pack/blob/master/LICENSE) file in this repository.
+Please review the **LICENSE** file in this repository.
 
