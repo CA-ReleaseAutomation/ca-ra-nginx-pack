@@ -11,7 +11,8 @@ We have a simple process that utilizes the [GitHub](https://guides.github.com/in
 1. Fork the repository on GitHub
 1. Reporting an issue or making a feature request [here](#issues).
 1. Adding features or fixing bugs
-1. Create a Github Pull Request.
+1. Create a [Github Pull Request](http://help.github.com/send-pull-requests/)
+
 1. Do [Code Review](#cr) with the **CA Release Automation Engineering Team** or **CA Release Automation Core Committers** on the pull request.
 
 ### <a name="pulls"></a> CA Release Automation Pull Requests
