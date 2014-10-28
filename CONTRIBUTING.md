@@ -2,23 +2,21 @@
 
 We are glad you want to contribute to CA Release Automation!
 
-We utilize **Github Issues** for issue tracking and contributions. You can contribute in two ways:
-
-1. Reporting an issue or making a feature request [here](#issues).
-2. Adding features or fixing bugs yourself and contributing your code to CA Release Automation.
-
 ## Contribution Process
 
-We have a 3 step process that utilizes **Github Issues**:
+We have a simple process that utilizes the [GitHub](https://guides.github.com/introduction/flow/index.html) and **Github Issues**:
 
 1. Sign or be added to an existing [Contributor License Agreement (CLA)](https://communities.ca.com/become-a-contributor).
-2. Create a Github Pull Request.
-3. Do [Code Review](#cr) with the **CA Release Automation Engineering Team** or **CA Release Automation Core Committers** on the pull request.
+1. Sign up or login to your [GitHub account](https://github.com/signup/free)
+1. Fork the repository on GitHub
+1. Reporting an issue or making a feature request [here](#issues).
+1. Adding features or fixing bugs
+1. Create a Github Pull Request.
+1. Do [Code Review](#cr) with the **CA Release Automation Engineering Team** or **CA Release Automation Core Committers** on the pull request.
 
 ### <a name="pulls"></a> CA Release Automation Pull Requests
 
-CA Release Automation is enterprise grade software. We strive to ensure high quality throughout the CA Release Automation experience. In order to ensure
-  this, we require a couple of things for all pull requests to CA Release Automation:
+CA Release Automation is enterprise grade software. We strive to ensure high quality throughout the CA Release Automation experience. In order to ensure this, we require a couple of things for all pull requests to CA Release Automation:
 
 **Tests:** To ensure high quality code and protect against future regressions, we require all the
   code in CA Release Automation to have at least unit test coverage. See the [spec/unit](https://communities.ca.com/testing)
@@ -33,12 +31,11 @@ The CA Release Automation Code Review process happens on Github pull requests. S
   [this article](https://help.github.com/articles/using-pull-requests) if you're not
   familiar with Github Pull Requests.
 
-Once you a pull request, the **CA Release Automation Engineering Team** or **CA Release Automation Core Committers** will review your code
-  and respond to you with any feedback they might have. The process at this point is as follows:
+Once you a pull request, the **CA Release Automation Engineering Team** or **CA Release Automation Core Committers** will review your code and respond to you with any feedback they might have. The process at this point is as follows:
 
 1. 2 thumbs-ups are required from the **CA Release Automation Engineering Team** or **CA Release Automation Core Committers** for all merges.
-2. When ready, your pull request will be tagged with label `Ready For Merge`.
-3. Your patch will be merged into `master` including necessary documentation updates
+1. When ready, your pull request will be tagged with label `Ready For Merge`.
+1. Your patch will be merged into `master` including necessary documentation updates
   and you will be included in `CHANGELOG.md`. Our goal is to have patches merged in 4 weeks
   after they are marked to be merged.
 
