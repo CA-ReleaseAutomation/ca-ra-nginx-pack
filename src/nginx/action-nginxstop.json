@@ -1,0 +1,58 @@
+{
+   "SCRIPTAction" : {
+      "actionPack" : {
+         "name" : "Nginx",
+         "category" : "Nginx",
+         "description" : "Integration actions for the NGINX web server. More information available at nginx.org",
+         "author" : "CA Technologies",
+         "dependencies" : "",
+         "platform" : "Windows and Linux",
+         "version" : "0.1  ",
+         "license" : "",
+         "imageLocation" : "http://localhost:8080/RDKServer/workingDirectory/ActionPacks/nginx/nginx.gif",
+         "lastModified" : "2014-11-09T23:18:57.613-08:00",
+         "tags" : [ ],
+         "packageName" : "nginx"
+      },
+      "name" : "Nginx - Stop",
+      "description" : "Hard stop of the NGINX server.",
+      "outputParamList" : [ {
+         "name" : "Execution Output",
+         "type" : "String",
+         "description" : "This output parameter holds the complete raw output of the CLI execution",
+         "filterValue" : "[\\s\\S]*",
+         "filterType" : "REGEX",
+         "variableName" : "executionoutput",
+         "source" : "standardOut",
+         "arrayOption" : false
+      } ],
+      "successMessage" : "Execution succeeded.",
+      "type" : "SCRIPT",
+      "complete" : true,
+      "lastModified" : "2014-11-09T23:19:00.128-08:00",
+      "className" : "NginxStop",
+      "packageName" : "com.ca.nginx",
+      "shellType" : "DEFAULT_OS",
+      "scripts" : [ {
+         "content" : "taskkill /F /IM nginx.exe",
+         "envVariables" : [ {
+         } ],
+         "execDir" : "",
+         "name" : "NginxStop1415603940125.bat",
+         "osType" : "WINDOWS",
+         "overwriteOutput" : true,
+         "timeout" : 0,
+         "waitForProcess" : false
+      }, {
+         "content" : "sudo service nginx stop",
+         "envVariables" : [ {
+         } ],
+         "execDir" : "",
+         "name" : "NginxStop1415603940126.sh",
+         "osType" : "LINUX",
+         "overwriteOutput" : true,
+         "timeout" : 0,
+         "waitForProcess" : false
+      } ]
+   }
+}

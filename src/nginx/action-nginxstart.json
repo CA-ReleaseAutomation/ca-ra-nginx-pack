@@ -1,0 +1,68 @@
+{
+   "SCRIPTAction" : {
+      "actionPack" : {
+         "name" : "Nginx",
+         "category" : "Nginx",
+         "description" : "Integration actions for the NGINX web server. More information available at nginx.org",
+         "author" : "CA Technologies",
+         "dependencies" : "",
+         "platform" : "Windows and Linux",
+         "version" : "0.1  ",
+         "license" : "",
+         "imageLocation" : "http://localhost:8080/RDKServer/workingDirectory/ActionPacks/nginx/nginx.gif",
+         "lastModified" : "2014-11-09T23:18:57.613-08:00",
+         "tags" : [ ],
+         "packageName" : "nginx"
+      },
+      "name" : "Nginx - Start",
+      "description" : "Start the NGINX server.",
+      "inputParamList" : [ {
+         "name" : "WorkingDirectory",
+         "type" : "String",
+         "description" : "WorkingDirectory Description",
+         "required" : true,
+         "value" : "C:\\Users\\jigang\\Downloads\\nginx-1.6.2",
+         "variableName" : "workingdirectory",
+         "arrayOption" : false
+      } ],
+      "outputParamList" : [ {
+         "name" : "Execution Output",
+         "type" : "String",
+         "description" : "This output parameter holds the complete raw output of the CLI execution",
+         "filterValue" : "[ \\s\\S]*",
+         "filterType" : "REGEX",
+         "variableName" : "executionoutput",
+         "source" : "standardOut",
+         "arrayOption" : false
+      } ],
+      "successMessage" : "Execution succeeded.",
+      "type" : "SCRIPT",
+      "complete" : true,
+      "lastModified" : "2014-11-09T23:19:00.088-08:00",
+      "className" : "NginxStart",
+      "packageName" : "com.ca.nginx",
+      "shellType" : "DEFAULT_OS",
+      "scripts" : [ {
+         "content" : "start ${WorkingDirectory}\\nginx.exe",
+         "envVariables" : [ {
+         } ],
+         "execDir" : "C:\\Users\\jigang\\Downloads\\nginx-1.6.2",
+         "name" : "NginxStart1415603940084.bat",
+         "osType" : "WINDOWS",
+         "overwriteOutput" : true,
+         "shell" : "DEFAULT_OS",
+         "timeout" : 0,
+         "waitForProcess" : false
+      }, {
+         "content" : "sudo service nginx start",
+         "envVariables" : [ {
+         } ],
+         "execDir" : "",
+         "name" : "NginxStart1415603940086.sh",
+         "osType" : "LINUX",
+         "overwriteOutput" : true,
+         "timeout" : 0,
+         "waitForProcess" : false
+      } ]
+   }
+}

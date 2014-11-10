@@ -1,4 +1,4 @@
-# CA RELEASE AUTOMATION ACTION PACK FOR NGINX
+# CA RELEASE AUTOMATION ACTION PACK FOR BUGZILLA
 
 ## PLATFORMS
 
@@ -6,7 +6,7 @@ Actions in this pack are developed for:
 
 - CA Release Automation 4.7 and later
 
-- Nginx x.y.z and later.
+- Nginx 1.6.2 and later.
 
 ## CHANGELOG
 
@@ -23,6 +23,7 @@ If you want to use any pack provided, that has been pre-complied.
 1. Verify pre-requisites
 1. Import the Action Pack. 
 For more information, see [Manage Action Packs in Release Operations Center.](https://wiki.ca.com/display/RA50/Manage+Action+Packs+in+Release+Operations+Center)
+Or [Manage Action Packs in Automation Studio.](https://wiki.ca.com/display/RA50/Manage+Actions+in+Automation+Studio)
 1. Use actions in CA Release Automation processes. 
 For more information, see [How to Create Automation Processes.](https://wiki.ca.com/display/RA50/How+to+Create+Automation+Processes)
 1. Note: When working with action packs, preliminary configuration tasks may be required before using the actions. 
@@ -36,6 +37,7 @@ http://hostname/nolio-app/actionshelp.jsp
 ## DEVELOPMENT
 
 1. [Install and configure the RDK](https://wiki.ca.com/display/RA50/Install+and+Configure+the+RDK):w
+1. [Copy the source code to Working dir]Copy the source code folder(./src/bugzilla) to <tomcat_dir>/webapps/RDKServer/workingDirectory/ActionPacks
 1. [Modify the Action Pack in the RDK](https://wiki.ca.com/display/RA50/Create+or+Modify+Action+Packs+in+RDK)
 1. [Create or modify actions](https://wiki.ca.com/display/RA50/Create+or+Modify+Action+Packs+in+RDK)
 1. [Publish Action Pack](https://wiki.ca.com/display/RA50/Publish+Action+Packs+in+RDK)
@@ -47,4 +49,5 @@ If you plan to contribute your changes, you need to read the **CONTRIBUTING.md**
 ## LICENSE
 
 Please review the **LICENSE** file in this repository.
+
 

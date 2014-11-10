@@ -1,0 +1,1 @@
+${WorkingDirectory}\nginx.exe -s quit

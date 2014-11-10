@@ -1,0 +1,16 @@
+{
+   "ActionPack" : {
+      "name" : "Nginx",
+      "category" : "Nginx",
+      "description" : "Integration actions for the NGINX web server. More information available at nginx.org",
+      "author" : "CA Technologies",
+      "dependencies" : "",
+      "platform" : "Windows and Linux",
+      "version" : "0.1 ",
+      "license" : "",
+      "imageLocation" : "http://localhost:8080/RDKServer/workingDirectory/ActionPacks/nginx/nginx.gif",
+      "lastModified" : "2014-11-09T23:18:57.613-08:00",
+      "tags" : [ ],
+      "packageName" : "nginx"
+   }
+}

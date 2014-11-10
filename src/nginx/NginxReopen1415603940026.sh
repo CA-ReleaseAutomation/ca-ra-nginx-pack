@@ -1,0 +1,1 @@
+${WorkingDirectory}/nginx -s reopen

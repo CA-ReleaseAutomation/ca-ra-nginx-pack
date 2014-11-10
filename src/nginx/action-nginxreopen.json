@@ -1,0 +1,66 @@
+{
+   "SCRIPTAction" : {
+      "actionPack" : {
+         "name" : "Nginx",
+         "category" : "Nginx",
+         "description" : "Integration actions for the NGINX web server. More information available at nginx.org",
+         "author" : "CA Technologies",
+         "dependencies" : "",
+         "platform" : "Windows and Linux",
+         "version" : "0.1  ",
+         "license" : "",
+         "imageLocation" : "http://localhost:8080/RDKServer/workingDirectory/ActionPacks/nginx/nginx.gif",
+         "lastModified" : "2014-11-09T23:18:57.613-08:00",
+         "tags" : [ ],
+         "packageName" : "nginx"
+      },
+      "name" : "Nginx - Reopen",
+      "description" : "Reopen the NGINX log files.",
+      "inputParamList" : [ {
+         "name" : "WorkingDirectory",
+         "type" : "String",
+         "description" : "WorkingDirectory Description",
+         "required" : true,
+         "variableName" : "workingdirectory",
+         "arrayOption" : false
+      } ],
+      "outputParamList" : [ {
+         "name" : "Execution Output",
+         "type" : "String",
+         "description" : "This output parameter holds the complete raw output of the Script Action execution",
+         "filterValue" : "[\\s\\S]*",
+         "filterType" : "REGEX",
+         "variableName" : "executionoutput",
+         "source" : "standardOut",
+         "arrayOption" : false
+      } ],
+      "successMessage" : "Execution succeeded.",
+      "type" : "SCRIPT",
+      "complete" : true,
+      "lastModified" : "2014-11-09T23:19:00.027-08:00",
+      "className" : "NginxReopen",
+      "packageName" : "com.ca.nginx",
+      "shellType" : "DEFAULT_OS",
+      "scripts" : [ {
+         "content" : "${WorkingDirectory}\\nginx.exe -s reopen",
+         "envVariables" : [ {
+         } ],
+         "execDir" : "",
+         "name" : "NginxReopen1415603940024.bat",
+         "osType" : "WINDOWS",
+         "overwriteOutput" : true,
+         "timeout" : 0,
+         "waitForProcess" : false
+      }, {
+         "content" : "${WorkingDirectory}/nginx -s reopen",
+         "envVariables" : [ {
+         } ],
+         "execDir" : "",
+         "name" : "NginxReopen1415603940026.sh",
+         "osType" : "LINUX",
+         "overwriteOutput" : true,
+         "timeout" : 0,
+         "waitForProcess" : false
+      } ]
+   }
+}
